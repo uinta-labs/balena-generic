@@ -36,19 +36,14 @@ module.exports =
 		GENERIC_FLASH
 	].concat(postProvisioningInstructions)
 
-	gettingStartedLink:
-		windows: 'https://www.balena.io/docs/learn/getting-started/intel-nuc/nodejs/'
-		osx: 'https://www.balena.io/docs/learn/getting-started/intel-nuc/nodejs/'
-		linux: 'https://www.balena.io/docs/learn/getting-started/intel-nuc/nodejs/'
-
 	yocto:
 		machine: 'generic-amd64'
-		image: 'balena-image-flasher'
-		fstype: 'balenaos-img'
+		image: 'uinta-image-flasher'
+		fstype: 'uintaos-img'
 		version: 'yocto-kirkstone'
-		deployArtifact: 'balena-image-flasher-generic-amd64.balenaos-img'
-		deployFlasherArtifact: 'balena-image-flasher-generic-amd64.balenaos-img'
-		deployRawArtifact: 'balena-image-generic-amd64.balenaos-img'
+		deployArtifact: 'uinta-image-flasher-generic-amd64.uintaos-img'
+		deployFlasherArtifact: 'uinta-image-flasher-generic-amd64.uintaos-img'
+		deployRawArtifact: 'uinta-image-generic-amd64.uintaos-img'
 		compressed: true
 
 	configuration:

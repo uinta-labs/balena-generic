@@ -1,15 +1,15 @@
-[submodule "balena-yocto-scripts"]
-	path = balena-yocto-scripts
-	url = https://github.com/balena-os/balena-yocto-scripts.git
-	branch = master
+[submodule "uinta-yocto-scripts"]
+	path = uinta-yocto-scripts
+	url = https://github.com/uinta-labs/uinta-yocto-scripts.git
+	branch = wip
 [submodule "layers/poky"]
 	path = layers/poky
 	url = https://git.yoctoproject.org/git/poky
 	branch = kirkstone
 [submodule "layers/meta-balena"]
 	path = layers/meta-balena
-	url = https://github.com/balena-os/meta-balena.git
-	branch = master
+	url = https://github.com/uinta-labs/meta-balena.git
+	branch = wip
 [submodule "layers/meta-openembedded"]
 	path = layers/meta-openembedded
 	url = https://github.com/openembedded/meta-openembedded.git

@@ -9,18 +9,14 @@ module.exports =
 	state: 'new'
 
 	instructions: commonImg.instructions
-	gettingStartedLink:
-		windows: 'https://www.balena.io/docs/learn/getting-started/generic-aarch64/nodejs/'
-		osx: 'https://www.balena.io/docs/learn/getting-started/generic-aarch64/nodejs/'
-		linux: 'https://www.balena.io/docs/learn/getting-started/generic-aarch64/nodejs/'
 	supportsBlink: false
 
 	yocto:
 		machine: 'generic-aarch64'
-		image: 'balena-image'
-		fstype: 'balenaos-img'
+		image: 'uinta-image'
+		fstype: 'uintaos-img'
 		version: 'yocto-kirkstone'
-		deployArtifact: 'balena-image-generic-aarch64.balenaos-img'
+		deployArtifact: 'uinta-image-generic-aarch64.uintaos-img'
 		compressed: true
 
 	configuration:
